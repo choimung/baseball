@@ -22,4 +22,8 @@ public class Referee {
         return ball + "볼" + " " + strike + "스트라이크";
     }
 
+    public boolean isWin(String hint){
+        return hint.equals("3스트라이크");
+    }
+
 }
